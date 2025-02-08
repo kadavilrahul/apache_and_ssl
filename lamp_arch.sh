@@ -1,4 +1,3 @@
-I am rahul
 #!/bin/bash
 
 # Update system packages
