@@ -42,6 +42,11 @@ This repository contains a script ([setup_debian.sh](cci:7://file:///home/rahuld
     -   Reload Apache to apply the changes.
     -   Obtain an SSL certificate for the subdomain using Certbot.
     -   Reload Apache again to apply the SSL certificate.
+	  
+3.  Test the SSL certificate
+ 		```bash
+   	sudo certbot certificates
+		```
 
 ## Configuration
 
@@ -67,4 +72,3 @@ You can customize the following settings by modifying the variables within the [
 ## License
 
 [Specify the license under which the code is released]
-
