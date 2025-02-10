@@ -44,9 +44,11 @@ This repository contains a script ([setup_debian.sh](cci:7://file:///home/rahuld
     -   Reload Apache again to apply the SSL certificate.
 	  
 3.  Test the SSL certificate
- 		```bash
-   	sudo certbot certificates
-		```
+
+    ```bash
+    sudo certbot certificates
+    ```
+ 	
 
 ## Configuration
 
