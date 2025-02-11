@@ -1,13 +1,8 @@
-# Point the DNS correctly both main domain and subdmain
-# Edit line 10 SUBDOMAIN="silkroademart.com"
-# sudo nano setup_html_maindomain.sh
-# bash setup_html_maindomain.sh
-
-
 #!/bin/bash
 
-# Variables
-MAIN_DOMAIN="silkroademart.com"
+# Prompt user for main domain
+read -p "Enter your main domain (e.g., example.com): " MAIN_DOMAIN
+
 WEB_ROOT="/var/www/$MAIN_DOMAIN"
 APACHE_CONF="/etc/apache2/sites-available/$MAIN_DOMAIN.conf"
 
