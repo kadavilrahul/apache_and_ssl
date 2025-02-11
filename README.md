@@ -19,10 +19,16 @@ This repository contains a script ([setup_debian.sh](cci:7://file:///home/rahuld
 
 2.  Run the setup script with sudo privileges:
 
+   
+    For main domain
     ```bash
-    bash setup_debian.sh
+    bash maindomain.sh
     ```
-
+    For sub domain
+    ```bash
+    bash subdomain.sh
+    ```
+    
     The script will prompt you for the following information:
 
     -   `Subdomain`: The subdomain you want to set up (e.g., `new.example.com`).
@@ -43,7 +49,7 @@ This repository contains a script ([setup_debian.sh](cci:7://file:///home/rahuld
     -   Obtain an SSL certificate for the subdomain using Certbot.
     -   Reload Apache again to apply the SSL certificate.
 	  
-3.  Test the SSL certificate
+4.  Test the SSL certificate
 
     ```bash
     sudo certbot certificates
