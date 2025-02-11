@@ -1,6 +1,6 @@
-# HTML Subdomain Setup (Debian)
+# HTML Setup (Debian)
 
-This repository contains a script ([setup_debian.sh](cci:7://file:///home/rahuldineshk/wordpress_on_lamp/setup_debian.sh:0:0-0:0)) to automate the setup of an HTML subdomain on a Debian-based system using Apache2 and Certbot for SSL.
+This repository contains a scripts to automate the setup of an HTML domain subdomain on a Debian-based system using Apache2 and Certbot for SSL.
 
 ## Prerequisites
 
