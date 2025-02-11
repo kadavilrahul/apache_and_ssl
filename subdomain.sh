@@ -1,8 +1,3 @@
-# Point the DNS correctly both main domain and subdmain
-# sudo nano setup_html_subdomain.sh
-# bash setup_html_subdomain.sh
-# sudo certbot certificates
-
 #!/bin/bash
 
 # Get user inputs
